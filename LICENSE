@@ -5,43 +5,58 @@
 COPYRIGHT © 2026 DIGITECH SOLUTIONS.
 ALL RIGHTS RESERVED.
 
-THIS REPOSITORY AND ALL CONTENT INCLUDED HEREIN — INCLUDING BUT NOT
-LIMITED TO PROJECT DESCRIPTIONS, ARCHITECTURE OVERVIEWS, STRUCTURE,
-DOCUMENTATION, CONCEPTS, IDEAS, DESIGNS, TERMINOLOGY, AND PRESENTATION
-FORMAT — ARE THE EXCLUSIVE INTELLECTUAL PROPERTY OF DIGITECH SOLUTIONS.
+VERSION: 1.0
+EFFECTIVE DATE: February 16, 2026
 
-THIS REPOSITORY IS PROVIDED FOR INFORMATIONAL AND PROFESSIONAL
-SHOWCASE PURPOSES ONLY.
+====================================================================
+SCOPE OF THIS LICENSE
+====================================================================
 
-NO PART OF THIS REPOSITORY MAY BE:
-- COPIED
-- REPRODUCED
-- MODIFIED
-- DISTRIBUTED
-- PUBLISHED
-- TRANSLATED
-- REVERSE-ENGINEERED
-- USED FOR COMMERCIAL OR NON-COMMERCIAL PURPOSES
+This repository is intended for informational and professional showcase purposes only.
+All source code, assets, media, configuration files, and backend logic remain strictly private.
+Only the following items are permitted to be public:
+- README.md
+- LICENSE
+- Project structure documentation (e.g., PROJECT_STRUCTURE.md)
 
-IN ANY FORM OR BY ANY MEANS, ELECTRONIC OR MECHANICAL, WITHOUT
-EXPLICIT PRIOR WRITTEN PERMISSION FROM DIGITECH SOLUTIONS.
+====================================================================
+PERMITTED ACTIONS
+====================================================================
 
-THIS INCLUDES, BUT IS NOT LIMITED TO:
-- PROJECT IDEAS OR CONCEPTS
-- SYSTEM STRUCTURE OR ARCHITECTURE
-- AI-RELATED WORKFLOWS OR REPRESENTATIONS
-- BUSINESS LOGIC OR TECHNICAL OUTLINES
-- BRANDING, NAMING, AND TERMINOLOGY
+- Viewing repository content for learning and showcase purposes
+- Citing project structure in portfolios or professional presentations
+- Referencing documentation for educational use
 
-ANY UNAUTHORIZED USE, DUPLICATION, OR MISREPRESENTATION OF THIS
-MATERIAL MAY RESULT IN LEGAL ACTION UNDER APPLICABLE INTELLECTUAL
-PROPERTY LAWS.
+====================================================================
+PROHIBITED ACTIONS
+====================================================================
 
-THIS REPOSITORY DOES NOT GRANT ANY LICENSE, EXPRESS OR IMPLIED,
-INCLUDING BUT NOT LIMITED TO ANY IMPLIED WARRANTIES OF MERCHANTABILITY
-OR FITNESS FOR A PARTICULAR PURPOSE.
+No part of this repository may be:
+- Copied, reproduced, or distributed
+- Modified or translated
+- Reverse-engineered or decompiled
+- Used commercially or non-commercially without explicit permission
+- Misrepresented as your own work
 
-FOR PERMISSIONS, OFFICIAL USE, OR INQUIRIES, CONTACT:
-DIGITECH SOLUTIONS (OFFICIAL CHANNELS ONLY)
+This includes, but is not limited to:
+- Source code or scripts
+- Project ideas or concepts
+- System architecture or workflows
+- Business logic, algorithms, or technical outlines
+- Branding, naming, terminology, or visual design
+
+====================================================================
+DISCLAIMER
+====================================================================
+
+This repository is provided "as-is" without warranties of any kind.
+DIGITECH SOLUTIONS is not responsible for unauthorized use or misuse by third parties.
+
+====================================================================
+CONTACT
+====================================================================
+
+For permissions, authorized use, or inquiries, contact:
+infi.digitechsol95332@.com (Official channels only)
 
 ====================================================================
