@@ -72,7 +72,6 @@ DigiTech Solutions offers 20+ services, including but not limited to:
 `
 
 
-
 ## Tech Stack
 - **Frontend:** React, Vite, JSX, CSS/SCSS
 - **Animations:** GSAP, Framer Motion, Lottie
@@ -137,9 +136,10 @@ digitech-solutions/
     │   │   ├── Navbar/
     │   │   ├── Footer/
     │   │   ├── Button/
-    │   │   ├── Modal/
-    │   │   ├── Loader/
-    │   │   └── SectionTitle/
+    │   │   ├── Modal.jsx
+    │   │   └── common.css
+    │   │   └── SectionTitle.jsx
+    │   │   └── Breadcrumb.jsx
     │   │
     │   ├── ui/
     │   │   ├── Cards/
@@ -189,6 +189,93 @@ digitech-solutions/
         ├── icons/
         └── fonts/
 ````
+
+## PageLoader Features:
+````
+import PageLoader from '@/components/common/PageLoader';
+
+// In your component:
+const [isLoading, setIsLoading] = useState(true);
+
+useEffect(() => {
+  // Simulate loading
+  setTimeout(() => setIsLoading(false), 3000);
+}, []);
+
+return (
+  <>
+    <PageLoader isLoading={isLoading} />
+    {/* Your page content */}
+  </>
+);
+````
+
+## Button Component - Usage
+````
+<Button variant="primary" size="large">
+  Click Me
+</Button>
+
+<Button 
+  variant="primary" 
+  icon="fas fa-arrow-right"
+  iconPosition="right"
+>
+  Get Started
+</Button>
+
+<Button 
+  variant="danger"
+  size="small"
+  onClick={() => alert('Deleted!')}
+>
+  Delete
+</Button>
+````
+
+----
+## Breadcrumb Component 
+````
+<Breadcrumb 
+  items={[
+    { label: 'Products', path: '/products' },
+    { label: 'Electronics', path: '/products/electronics' },
+    { label: 'Laptop' }
+  ]}
+  separator="/"
+/>
+
+// Output: Home / Products / Electronics / Laptop
+
+<Breadcrumb 
+  items={[
+    { label: 'Services', path: '/services', icon: 'fas fa-cogs' },
+    { label: 'AI Solutions' }
+  ]}
+  separator="fas fa-chevron-right"
+/>
+````
+----
+
+##  **Animation Timeline:**
+```
+0s → 2.5s:  Logo float + glow + pulse
+0s → 1.2s:  First ring rotates (fast)
+0s → 1.8s:  Second ring rotates (medium)
+0s → 2.4s:  Third ring rotates (slow)
+0s → 1.4s:  Dots bounce (repeating)
+0s → 2.5s:  Progress bar fills
+0s → 4s:    Particles float around
+0s → 8s:    Gradient blobs morph
+
+
+````
+
+
+
+
+
+
 /components  
 Reusable UI components  
 ![Components](https://img.shields.io/badge/Components-61DAFB?style=flat-square)
@@ -243,13 +330,6 @@ The website uses:
 
 
 ## Contact
-This repository is intended for demonstration purposes only.  
-For any inquiries or professional review, please contact:
-
-
-
-
-
-
-
-
+This repository is intended for demonstration purposes only.
+It does not contain any proprietary data, source code, or confidential information of the company.
+For any inquiries, clarifications, or professional communication, please contact the company directly.
